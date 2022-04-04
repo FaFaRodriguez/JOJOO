@@ -12,5 +12,5 @@ const server = http.createServer(requestListener);
 
 //esto inicia el servidor
 server.listen(port,host, () => {
-    console.log('Server is running on http://${host}:${port}')
-}
+    console.log('Server is running on http://${host}:${port}');
+});
